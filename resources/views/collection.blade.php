@@ -1,9 +1,9 @@
 @extends('layouts.app')
 
-@section('title','Categories Page')
+@section('title', 'Categories Page')
 
 @section('content')
-       <!-- Start Inner Page Banner -->
+    {{-- <!-- Start Inner Page Banner -->
         <section class="inner-page-banner overflow-hidden">
           <div class="container-xxl">
             <div class="row">
@@ -217,9 +217,9 @@
             </div>
           </div>
         </section>
-        <!-- End Inner Page Banner -->
+        <!-- End Inner Page Banner --> --}}
 
-        <!-- Start Filter Block -->
+    {{-- <!-- Start Filter Block -->
         <section class="filter-block">
           <div class="container-xxl">
             <div class="row justify-content-md-between align-items-center">
@@ -263,204 +263,28 @@
             </div>
           </div>
         </section>
-        <!-- End Filter Block -->
+        <!-- End Filter Block --> --}}
 
-        <div class="container-xxl">
-          <!-- Start Product lsit -->
-          <section class="product-list">
+    <div class="container-xxl">
+        <!-- Start Product lsit -->
+        <section class="product-list">
             <div class="row">
-              <div class="col-sm-6 col-lg-4">
-                <div class="card" data-aos="flip-right">
-                  <div
-                    class="card-img-outer d-flex align-items-center justify-content-center"
-                  >
-                    <img
-                      src="assets/img/product-md-01.png"
-                      class="card-img"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Shorts</h5>
-                    <p class="card-text mb-4">
-                      Lorem ipsum dolor sit amet, consectetur
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-end flex-wrap"
-                    >
-                      <span class="price">1.48 USD</span>
-                      <a
-                        href="{{ route('product') }}"
-                        class="btn btn-primary rounded-0"
-                        data-aos="flip-left"
-                      >
-                        <span class="text-white text-uppercase">Shop now</span>
-                      </a>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card" data-aos="flip-right">
+                        <div class="card-img-outer d-flex align-items-center justify-content-center">
+                            <img src="assets/img/product-md-01.png" class="card-img" alt="..." />
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">RAM</h5>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-              <div class="col-sm-6 col-lg-4">
-                <div class="card" data-aos="flip-right">
-                  <div
-                    class="card-img-outer d-flex align-items-center justify-content-center"
-                  >
-                    <img
-                      src="assets/img/product-md-01.png"
-                      class="card-img"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Shorts</h5>
-                    <p class="card-text mb-4">
-                      Lorem ipsum dolor sit amet, consectetur
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-end flex-wrap"
-                    >
-                      <span class="price">1.48 USD</span>
-                      <a
-                        href="{{ route('product') }}"
-                        class="btn btn-primary rounded-0"
-                        data-aos="flip-left"
-                      >
-                        <span class="text-white text-uppercase">Shop now</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-lg-4">
-                <div class="card" data-aos="flip-right">
-                  <div
-                    class="card-img-outer d-flex align-items-center justify-content-center"
-                  >
-                    <img
-                      src="assets/img/product-md-01.png"
-                      class="card-img"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Shorts</h5>
-                    <p class="card-text mb-4">
-                      Lorem ipsum dolor sit amet, consectetur
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-end flex-wrap"
-                    >
-                      <span class="price">1.48 USD</span>
-                      <a
-                        href="{{ route('product') }}"
-                        class="btn btn-primary rounded-0"
-                        data-aos="flip-left"
-                      >
-                        <span class="text-white text-uppercase">Shop now</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-lg-4">
-                <div class="card" data-aos="flip-right">
-                  <div
-                    class="card-img-outer d-flex align-items-center justify-content-center"
-                  >
-                    <img
-                      src="assets/img/product-md-01.png"
-                      class="card-img"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Shorts</h5>
-                    <p class="card-text mb-4">
-                      Lorem ipsum dolor sit amet, consectetur
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-end flex-wrap"
-                    >
-                      <span class="price">1.48 USD</span>
-                      <a
-                        href="{{ route('product') }}"
-                        class="btn btn-primary rounded-0"
-                        data-aos="flip-left"
-                      >
-                        <span class="text-white text-uppercase">Shop now</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-lg-4">
-                <div class="card" data-aos="flip-right">
-                  <div
-                    class="card-img-outer d-flex align-items-center justify-content-center"
-                  >
-                    <img
-                      src="assets/img/product-md-01.png"
-                      class="card-img"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Shorts</h5>
-                    <p class="card-text mb-4">
-                      Lorem ipsum dolor sit amet, consectetur
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-end flex-wrap"
-                    >
-                      <span class="price">1.48 USD</span>
-                      <a
-                        href="{{ route('product') }}"
-                        class="btn btn-primary rounded-0"
-                        data-aos="flip-left"
-                      >
-                        <span class="text-white text-uppercase">Shop now</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-lg-4">
-                <div class="card" data-aos="flip-right">
-                  <div
-                    class="card-img-outer d-flex align-items-center justify-content-center"
-                  >
-                    <img
-                      src="assets/img/product-md-01.png"
-                      class="card-img"
-                      alt="..."
-                    />
-                  </div>
-                  <div class="card-body">
-                    <h5 class="card-title">Shorts</h5>
-                    <p class="card-text mb-4">
-                      Lorem ipsum dolor sit amet, consectetur
-                    </p>
-                    <div
-                      class="d-flex justify-content-between align-items-end flex-wrap"
-                    >
-                      <span class="price">1.48 USD</span>
-                      <a
-                        href="{{ route('product') }}"
-                        class="btn btn-primary rounded-0"
-                        data-aos="flip-left"
-                      >
-                        <span class="text-white text-uppercase">Shop now</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
-          </section>
-          <!-- End Product list -->
-        </div>
+        </section>
+        <!-- End Product list -->
+    </div>
 
-        <!-- Start Air Max -->
+    {{-- <!-- Start Air Max -->
         <section class="ari-mex-banner position-relative">
           <div class="container-xxl position-relative h-100">
             <div class="row">
@@ -610,6 +434,6 @@
             </div>
           </div>
         </section>
-        <!-- End Air Max -->
+        <!-- End Air Max --> --}}
 
 @endsection
