@@ -75,7 +75,7 @@
               <div class="col-auto">
                 <ul class="sub-navigation">
                   <li>
-                    <a href="#" title="Login / Register">Login / Register</a>
+                    <a href="{{route('sign-in')}}" title="Login / Register">Login / Register</a>
                   </li>
                 </ul>
               </div>

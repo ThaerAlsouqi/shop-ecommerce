@@ -15,7 +15,7 @@
     We know how large objects will act,
   </p>
   <a
-    href="product.html"
+    href="collection"
     class="btn btn-primary rounded-0 text-uppercase"
     data-aos="flip-left"
   >

@@ -8,4 +8,5 @@
   @include('partials.index-top-promo-cards')
   @include('partials.index-about-brand')
 </div>
+ @include('partials.index-categories')
 @endsection
